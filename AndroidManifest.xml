@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       android:versionCode="4" 
-      package="com.anysoftkeyboard.languagepack.persian" 
-      android:versionName="20120613-persian-numbers">
+      package="com.anysoftkeyboard.languagepack.urdu" 
+      android:versionName="20120613-urdu-numbers">
     <application android:icon="@drawable/app_icon" android:label="@string/app_name">
     	<receiver android:exported="true" android:name=".KeyboardBroadcastReceiver">
     		<intent-filter> 
-                <action android:name="com.menny.android.anysoftkeyboard.KEYBOARD" />
+                <action android:name="com.jemnetworks.android.anysoftkeyboard.KEYBOARD" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.ALTERNATIVE" />
                 <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
             </intent-filter>
             <intent-filter> 
-                <action android:name="com.menny.android.anysoftkeyboard.DICTIONARY" />
+                <action android:name="com.jemnetworks.android.anysoftkeyboard.DICTIONARY" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.ALTERNATIVE" />
                 <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
             </intent-filter>
-            <meta-data android:name="com.menny.android.anysoftkeyboard.keyboards" android:resource="@xml/keyboards" />
-            <meta-data android:name="com.menny.android.anysoftkeyboard.dictionaries" android:resource="@xml/dictionaries" />
+            <meta-data android:name="com.jemnetworks.android.anysoftkeyboard.keyboards" android:resource="@xml/keyboards" />
+            <meta-data android:name="com.jemnetworks.android.anysoftkeyboard.dictionaries" android:resource="@xml/dictionaries" />
     	</receiver>		
           
     </application>
