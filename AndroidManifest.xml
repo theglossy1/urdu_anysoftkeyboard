@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       android:versionCode="4" 
       package="com.anysoftkeyboard.languagepack.urdu" 
-      android:versionName="20120613-urdu-numbers">
+      android:versionName="20140613-urdu-numbers">
     <application android:icon="@drawable/app_icon" android:label="@string/app_name">
     	<receiver android:exported="true" android:name=".KeyboardBroadcastReceiver">
     		<intent-filter> 
@@ -11,14 +11,7 @@
                 <category android:name="android.intent.category.ALTERNATIVE" />
                 <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
             </intent-filter>
-            <intent-filter> 
-                <action android:name="com.jemnetworks.android.anysoftkeyboard.DICTIONARY" />
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.ALTERNATIVE" />
-                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
-            </intent-filter>
             <meta-data android:name="com.jemnetworks.android.anysoftkeyboard.keyboards" android:resource="@xml/keyboards" />
-            <meta-data android:name="com.jemnetworks.android.anysoftkeyboard.dictionaries" android:resource="@xml/dictionaries" />
     	</receiver>		
           
     </application>
