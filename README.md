@@ -1,20 +1,10 @@
-#Persian and Pinglish keyboard for Android
+#Urdu keyboards for Android
 
-![](http://www.pedramhayati.com/images/persian_keyboard_android_number.png) 
-![](http://i.imgur.com/VusLW.png)
-
-This is an expansion layout pack for AnySoftKeyboard (AnySoftKeyabord is an APP).
+This is an expansion layout pack for AnySoftKeyboard (AnySoftKeyabord is an APP). It is based on the Persian AnySoft keyboard expansion pack.
 
 #Features
-* Full Persian keyboards
-* Persian words suggestion and auto completion
-* Persian numbers
-* Pinglish keyboard with Pinglish words suggestions
-
-#Website
-[http://j.mp/farsiandroid](http://j.mp/farsiandroid)
+* Full Urdu keyboards
+* Urdu numbers
 
 #Todo
-* Look for new android fonts to replace Arabic YE with Persian one
-* Add half-space (NIM-FASELEH)
-* Validate Persian numbers equivalent (numbers 4,5,6)
+* Get it working
